@@ -1,0 +1,8 @@
+original = "String"
+invertida = ""
+
+for i in range(len(original)-1, -1, -1):
+    invertida += original[i]
+
+print("String original: ", original)
+print("String invertida: ", invertida)
